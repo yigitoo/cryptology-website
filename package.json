@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "browser": {
+    "fs": "empty",
+    "path": false,
+    "os": false
+  },
+  "dependencies": {
+    "bson": "^4.5.4",
+    "chart.js": "^3.8.2",
+    "dotenv": "^16.0.0",
+    "mongodb": "^3.5.9",
+    "mongodb-core": "^3.2.7",
+    "mongoose": "^6.3.1",
+    "next": "latest",
+    "qrcode": "^1.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "source-map-js": "^1.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "license": "Apache-2.0"
+}
