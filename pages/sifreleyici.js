@@ -20,8 +20,18 @@ export default function Decoder({ isConnected, loading, setLoading, project }) {
             <>
                 <form action="/api/db">
                     <label name="text">ŞİFRELEMEK İÇİN YAZI</label>
-                    <input type="text" name="text" placeholder='sifrem:123645gkhver'></input>
-                    <button type="submit">GÖNDER</button>
+                    <div>
+                        <input type="text" name="text" placeholder='sifrem:123645gkhver' style={{
+                            border: "1px solid black",
+                            padding: "20px",
+                            margin: "20px"
+                        }}></input>
+                    </div>
+                    <button type="submit" style={{
+                        border: "1px solid black",
+                        color: "green",
+                        backgroundColor: ""
+                    }}>GÖNDER</button>
                 </form>
             </>
             ) : (
