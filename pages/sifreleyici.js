@@ -19,8 +19,8 @@ export default function Decoder({ isConnected, loading, setLoading, project }) {
             {isConnected ? (
             <>
                 <form action="/api/db">
-                    <label name="text"></label>
-                    <input type="text" name="text" />
+                    <label name="text">ŞİFRELEMEK İÇİN YAZI</label>
+                    <input type="text" name="text" placeholder='sifrem:123645gkhver'></input>
                     <button type="submit">GÖNDER</button>
                 </form>
             </>
